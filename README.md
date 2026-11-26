@@ -3,7 +3,7 @@
 Turn lecture slides (PDF/PPTX), tutorial sheets and course diagrams into **A4 study-note PDFs** that are easy to revise from.
 
 Every slide gets:
-- 🟨 **In simple words**: the slide explained in 1–3 sentences a 10-year-old can understand
+- 🟨 **In simple words**: the slide explained in 1–3 sentences
 - 🟥 **Red · Memorise**: definitions, lists, model names (exam material)
 - 🟦 **Blue · Understand**: what it's for, why it exists, how it works
 - ⬜ **No line · Example**: examples and stories
