@@ -1,24 +1,54 @@
 # Lecture Study Notes — Claude Skill (v2)
 
-Turn lecture slides (PDF/PPTX), tutorial sheets and course diagrams into **A4 study-note PDFs** that are easy to revise from.
+This repository stores my reusable note-taking workflow built with Claude. I designed a structured, colour-coded template that turns lecture content into clear, exam-friendly revision cards.
 
-Every slide gets:
-- 🟨 **In simple words**: the slide explained in 1–3 sentences
-- 🟥 **Red · Memorise**: definitions, lists, model names (exam material)
-- 🟦 **Blue · Understand**: what it's for, why it exists, how it works
-- ⬜ **No line · Example**: examples and stories
-- 🟧 **Caution**: unclear or wrong slide wording, with the correct version
-- 🟪 **Exam drill**: model answers
-- 📘 **Terms table**: every professional term with a plain-English meaning
-- ⚫ **Close-book keywords**
+It turns lecture slides (PDF/PPTX), tutorial sheets and course diagrams into **A4 study-note PDFs**. Each PDF ends with a one-page revision summary and a **Glossary A–Z**.
 
-Each PDF ends with a one-page revision summary and a **Glossary A–Z**.
+---
+
+## How to use these study notes
+
+Every slide card follows the same order, top to bottom:
+
+- 🟡 **IN SIMPLE WORDS**: plain, kid-friendly rephrasing. Read this section first if you find the terminology confusing.
+- 🔴 **RED = MEMORISE**: core definitions, formulas, key steps and fixed terminology that you need to recall exactly.
+  *Prompt rule: mark what it **IS**.*
+- 🔵 **BLUE = UNDERSTAND**: concept explanations, purposes, logic and relationships. You don't need to memorise these word for word.
+  *Prompt rule: mark what it's **FOR**.*
+- ⚫ **NO-LINE EXAMPLE**: stories and real-life examples, for understanding only. No memorisation needed.
+- 🟤 **CAUTION**: ambiguous wording, common misconceptions and differences from textbook definitions.
+- 🟣 **EXAM DRILL**: exam-style practice questions with correct reference answers.
+- 📘 **TERMS TABLE**: every professional term with a synonym or plain-English meaning.
+- ⭕ **CLOSE-BOOK KEYWORDS**: 2–4 keywords to recall from memory.
+
+> Quick rule: "what it **IS**" → 🔴 RED │ "what it's **FOR**" → 🔵 BLUE │ "for example" → ⚫ no line
+
+### 4 steps to study each slide card
+
+1. Read the slide title first to grasp the main topic.
+2. Read the simple-words explanation, then ask: What is it? What is it for? What is a real example?
+3. Focus only on the 1–2 RED memorisation points per slide.
+4. Close the material and write down the 2–4 core keywords from memory.
+
+### 2 things to avoid
+
+1. Don't mark everything red. Highlight at most 2–3 items to memorise on each slide.
+2. Don't get stuck on one unclear sentence. Mark it with "?", keep reading and come back later.
+
+---
 
 ## Example output
 
 | How to use page | Slide card |
 |---|---|
 | ![How to use these notes](assets/screenshots/how-to-use.png) | ![Slide card example](assets/screenshots/slide-card-example.png) |
+
+---
+
+## My workflow statement
+
+This is not AI-generated finished work.
+I defined the colour rules, card structure and learning logic. Claude acts as an assistant that rephrases and organises content according to my design rules. I do all the review, filtering and final validation myself.
 
 ---
 
