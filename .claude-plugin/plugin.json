@@ -1,0 +1,8 @@
+{
+  "name": "lecture-study-notes",
+  "version": "2.0.0",
+  "description": "Turn lecture slides, tutorials and diagrams into A4 study-note PDFs with 'In simple words' boxes, red/blue/grey marking, exam drills and a glossary.",
+  "author": { "name": "YOUR-GITHUB-USERNAME" },
+  "license": "MIT",
+  "keywords": ["study-notes", "lecture", "exam", "pdf", "education"]
+}

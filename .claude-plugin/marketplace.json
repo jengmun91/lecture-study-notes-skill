@@ -1,0 +1,12 @@
+{
+  "name": "lecture-study-notes-skill",
+  "owner": { "name": "YOUR-GITHUB-USERNAME" },
+  "plugins": [
+    {
+      "name": "lecture-study-notes",
+      "source": "./",
+      "description": "A4 study-note PDFs from lecture slides with simple-words boxes and 3-colour marking.",
+      "version": "2.0.0"
+    }
+  ]
+}
