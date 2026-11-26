@@ -14,6 +14,12 @@ Every slide gets:
 
 Each PDF ends with a one-page revision summary and a **Glossary A–Z**.
 
+## Example output
+
+| How to use page | Slide card |
+|---|---|
+| ![How to use these notes](assets/screenshots/how-to-use.png) | ![Slide card example](assets/screenshots/slide-card-example.png) |
+
 ---
 
 ## Repository layout
@@ -21,6 +27,10 @@ Each PDF ends with a one-page revision summary and a **Glossary A–Z**.
 ```
 lecture-study-notes-skill/
 ├── README.md
+├── assets/
+│   └── screenshots/
+│       ├── how-to-use.png          ← example output
+│       └── slide-card-example.png  ← example output
 ├── .claude-plugin/
 │   ├── plugin.json         ← only needed for Claude Code
 │   └── marketplace.json    ← only needed for Claude Code
